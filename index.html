@@ -208,6 +208,7 @@ h1,h2,p,figure{margin:0}
 .letter .rail{margin-bottom:28px}
 .letter p+p{margin-top:1em}
 .salute{font-style:italic;font-size:1.65em;line-height:1.2;color:var(--wine)}
+.letter .closing{font-style:italic;font-size:1.12em;line-height:1.5;color:var(--wine)}
 .letter .sign{font:400 1.55em/1.2 var(--f-hand);color:var(--wine);margin-top:1.3em}
 .sign svg{width:30px;display:inline-block;vertical-align:middle;margin-left:8px;color:var(--rose)}
 .motion [data-reveal]{opacity:0;transform:translateY(30px);transition:opacity 1s var(--ease),transform 1.2s var(--ease);transition-delay:var(--d,0s)}
@@ -365,7 +366,7 @@ h1,h2,p,figure{margin:0}
 <section class="sec smile" id="smile">
   <header class="smile-head">
     <h2 class="sec-title" data-split>That smile.</h2>
-    <p class="lede" data-reveal style="--d:.3s">The one that makes everything okay.</p>
+    <p class="lede" data-reveal style="--d:.3s">The one that makes everything okay. There’s a reason they call you Muskan.</p>
   </header>
   <div class="collage" id="collage">
     <figure class="c1"><div class="ph" style="--lq:url(data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoMABAABABoJQAARMuiKiSCgAD+qHDNDRa2VuKROH5kj8LWv0NfC2BkGwAZb4BiLoZKuZTCtdBrt5dud78EgDkVMHPfja2jm509ip8reGquAA==)"><img src="photos/06.webp" alt="Divya laughing against my chest on a tree-lined path" width="768" height="1024" loading="lazy" decoding="async"></div></figure>
@@ -385,7 +386,7 @@ h1,h2,p,figure{margin:0}
     <article class="card"><p class="card-num">No. 3</p><p class="card-text">The way you look at me when you think I’m not looking.</p><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 0c.6 7 5 11.4 12 12-7 .6-11.4 5-12 12-.6-7-5-11.4-12-12C7 11.4 11.4 7 12 0Z"/></svg></article>
     <article class="card"><p class="card-num">No. 4</p><p class="card-text">Your kindness, to everyone, always.</p><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 0c.6 7 5 11.4 12 12-7 .6-11.4 5-12 12-.6-7-5-11.4-12-12C7 11.4 11.4 7 12 0Z"/></svg></article>
     <article class="card"><p class="card-num">No. 5</p><p class="card-text">You’re my calm and my favourite kind of chaos.</p><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 0c.6 7 5 11.4 12 12-7 .6-11.4 5-12 12-.6-7-5-11.4-12-12C7 11.4 11.4 7 12 0Z"/></svg></article>
-    <article class="card"><p class="card-num">No. 6</p><p class="card-text">Any room feels like home the moment you walk in.</p><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 0c.6 7 5 11.4 12 12-7 .6-11.4 5-12 12-.6-7-5-11.4-12-12C7 11.4 11.4 7 12 0Z"/></svg></article>
+    <article class="card"><p class="card-num">No. 6</p><p class="card-text">You make the distance between Germany and India feel small.</p><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 0c.6 7 5 11.4 12 12-7 .6-11.4 5-12 12-.6-7-5-11.4-12-12C7 11.4 11.4 7 12 0Z"/></svg></article>
     <article class="card"><p class="card-num">No. 7</p><p class="card-text">You hold my hand like it’s the most natural thing in the world.</p><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 0c.6 7 5 11.4 12 12-7 .6-11.4 5-12 12-.6-7-5-11.4-12-12C7 11.4 11.4 7 12 0Z"/></svg></article>
     <article class="card"><p class="card-num">No. 8</p><p class="card-text">You believe in me, even on the days I don’t.</p><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 0c.6 7 5 11.4 12 12-7 .6-11.4 5-12 12-.6-7-5-11.4-12-12C7 11.4 11.4 7 12 0Z"/></svg></article>
     <article class="card"><p class="card-num">No. 9</p><p class="card-text">Every adventure is better with you in it.</p><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 0c.6 7 5 11.4 12 12-7 .6-11.4 5-12 12-.6-7-5-11.4-12-12C7 11.4 11.4 7 12 0Z"/></svg></article>
@@ -402,12 +403,15 @@ h1,h2,p,figure{margin:0}
 <section class="sec" id="letter" aria-label="A letter for you">
   <article class="letter">
     <span class="rail" aria-hidden="true"></span>
-    <p class="salute" data-reveal><span data-name>Divya</span>, my love,</p>
-    <p data-reveal style="--d:.1s">Happy birthday. I wanted to give you something you could open again and again, so I made you this little corner of the internet. It’s only for you.</p>
-    <p data-reveal style="--d:.15s">Every photo here is a moment I keep going back to: clouds rolling over the hills, slow mornings with two cups on the table, and you laughing so hard you had to hide your face.</p>
-    <p data-reveal style="--d:.2s">Thank you for your patience, your warmth, and the way you make ordinary days feel golden. You are my favourite person to do nothing with, and my favourite person to do everything with.</p>
-    <p data-reveal style="--d:.25s">I can’t wait to spend every birthday after this one beside you.</p>
-    <p class="sign" data-reveal style="--d:.3s">Yours, always<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5C8 17.6 2.5 13.6 2.5 8.6 2.5 5.7 4.7 3.5 7.4 3.5c1.9 0 3.5 1 4.6 2.6 1.1-1.6 2.7-2.6 4.6-2.6 2.7 0 4.9 2.2 4.9 5.1 0 5-5.5 9-9.5 11.9Z"/></svg></p>
+    <p class="salute" data-reveal>Baby,</p>
+    <p data-reveal style="--d:.1s">Happy birthday, my love. I made you this little corner of the internet so that wherever I am, you have something of me you can open again and again. It’s only for you.</p>
+    <p data-reveal style="--d:.15s">I don’t say it enough, so I’m saying it here. You are the most important person in my life. I’m in Germany and you’re in India, and you are still the first person I think of when I wake up and the last one before I sleep. You’re the one I want to tell when something good happens, and the only one I need when something goes wrong.</p>
+    <p data-reveal style="--d:.2s">They call you Muskan at home, and no name has ever fit anyone better. Your smile is my favourite thing in the world. One video call with you can fix my whole day.</p>
+    <p data-reveal style="--d:.25s">Every photo here is a moment I keep going back to: clouds rolling over the hills, slow mornings with two cups on the table, and you laughing so hard you had to hide your face. On the days the distance feels heavy, these moments carry me until I can hold you again.</p>
+    <p data-reveal style="--d:.3s">Thank you for your patience, your warmth, and for loving me across all these kilometres and time zones. You believe in me when I forget to, and you make me want to be better every single day. You are my favourite person to do nothing with, and my favourite person to do everything with.</p>
+    <p data-reveal style="--d:.35s">Choosing forever with you is the easiest decision I’ve ever made. I can’t wait for the day home is one place instead of two countries, and for every birthday after this one, spent right beside you.</p>
+    <p class="closing" data-reveal style="--d:.4s">Thank you for being born, and thank you for choosing me.</p>
+    <p class="sign" data-reveal style="--d:.45s">Yours, always<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 20.5C8 17.6 2.5 13.6 2.5 8.6 2.5 5.7 4.7 3.5 7.4 3.5c1.9 0 3.5 1 4.6 2.6 1.1-1.6 2.7-2.6 4.6-2.6 2.7 0 4.9 2.2 4.9 5.1 0 5-5.5 9-9.5 11.9Z"/></svg></p>
   </article>
 </section>
 
